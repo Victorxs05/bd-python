@@ -22,7 +22,7 @@ from sqlalchemy import create_engine, Column, String, Integer
 from sqlalchemy.orm import sessionmaker, declarative_base
 
 # Criando banco de dados. 
-MEU_BANCO2 = create_engine("sqlite:///meubanco_alunos.db")
+MEU_BANCO2 = create_engine("sqlite:///meubanco2.db")
 
 # Criando conexão com banco de dados.
 Session = sessionmaker(bind=MEU_BANCO2)
